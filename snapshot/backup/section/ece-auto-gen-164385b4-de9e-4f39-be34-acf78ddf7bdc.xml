@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="config.amp" source="ece-auto-gen" sourceid="164385b4-de9e-4f39-be34-acf78ddf7bdc" name="AMP" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="3d5f39ac-1a57-49de-9940-0b2fa86bd9e2" unique-name="config"/>
+        <unique-name>config.amp</unique-name>
+        <directory>config_amp</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>
