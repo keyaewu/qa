@@ -9,6 +9,7 @@
         <section-ref unique-name="config.default.section.about"/>
         <section-ref unique-name="config.default.section"/>
         <section-ref unique-name="config.default.article.type.story"/>
+        <section-ref unique-name="config.amp.article.type.story"/>
         <section-ref unique-name="config" home-section="true"/>
         <priority value="0"/>
         <field name="title">Recommended tabs</field>
