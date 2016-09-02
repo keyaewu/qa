@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="14353a16-3b74-4cb1-8399-8a46ddd936db" unique-name="config.amp" name="AMP" layout-name="config" action="remove"/>
+</escenic>
