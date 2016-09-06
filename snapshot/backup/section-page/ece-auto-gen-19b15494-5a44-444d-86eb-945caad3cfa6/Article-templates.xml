@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="19b15494-5a44-444d-86eb-945caad3cfa6" unique-name="config.default.article" name="Article templates" layout-name="config" action="remove"/>
+</escenic>

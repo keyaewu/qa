@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="69ca6ee1-64a5-4b5a-b353-e76e5c1d55a4" type="wf_datasource" state="published">
+        <section-ref unique-name="config.amp.article.type.story" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">DataSource</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","24HoursBlockFromNow":"no","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[{"groupName":"featuredStories","sectionSelectionPolicy":"Category","sourceType":"desked","section":"sports","groupInstance":"1","fields":{},"$$hashKey":"00G","contentTypes":["embedYoutube"]}],"applySettings":"yes","$$hashKey":"00E"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+    </content>
+</escenic>

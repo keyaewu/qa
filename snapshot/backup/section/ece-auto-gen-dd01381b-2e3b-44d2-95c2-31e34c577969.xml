@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="config.amp.tag" source="ece-auto-gen" sourceid="dd01381b-2e3b-44d2-95c2-31e34c577969" name="Tag templates" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="fb0ae8c3-6c23-4675-b282-19fb5cae2e4c" unique-name="config.amp"/>
+        <unique-name>config.amp.tag</unique-name>
+        <directory>config_amp_tag</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>

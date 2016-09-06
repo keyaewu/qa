@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="22d125a9-bf58-4073-82ec-e5f1eff161d5" type="widget_heading" state="published">
+        <section-ref unique-name="config.amp.article.type.story" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">heads</field>
+        <field name="headingsource">
+            <value>customText</value>
+        </field>
+        <field name="customtext">Story Page template</field>
+    </content>
+</escenic>
