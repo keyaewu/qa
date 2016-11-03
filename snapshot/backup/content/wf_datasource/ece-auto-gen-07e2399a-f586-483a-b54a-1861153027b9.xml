@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="07e2399a-f586-483a-b54a-1861153027b9" type="wf_datasource" state="published">
+        <section-ref unique-name="news" home-section="true"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">DataSource by section created by automated test BOT</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","24HoursBlockFromNow":"no","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[{"sectionSelectionPolicy":"Category","sourceType":"list","section":"ece_incoming","sort":"publish_date_dec","fields":{},"$$hashKey":"00E","contentTypes":["story","picture"],"includeSubsections":"yes"}],"applySettings":"yes","$$hashKey":"00C"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+    </content>
+</escenic>

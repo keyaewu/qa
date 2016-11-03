@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="78c539b1-f0c1-44d8-9dc0-8530cbe7a9ed" type="widget_heading" state="published">
+        <section-ref unique-name="config.amp" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">AMP Heading widget - Copyright</field>
+        <field name="headingsource">
+            <value>customText</value>
+        </field>
+        <field name="customtext">&amp;copy; 2013 Escenic</field>
+        <field name="widgetwrapper">
+            <value>h5</value>
+        </field>
+        <field name="customstyleclass">text-center</field>
+    </content>
+</escenic>

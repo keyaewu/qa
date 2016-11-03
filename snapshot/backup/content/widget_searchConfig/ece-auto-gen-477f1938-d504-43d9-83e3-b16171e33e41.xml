@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="477f1938-d504-43d9-83e3-b16171e33e41" type="widget_searchConfig" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">TestAutomation Widget (Search Config widget)</field>
+        <field name="contenttypes">
+            <value>
+                <title>Picture</title>
+                <value>picture</value>
+            </value>
+            <value>
+                <title>Story</title>
+                <value>story</value>
+            </value>
+        </field>
+    </content>
+</escenic>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="3b90b74c-9242-41d0-8829-235463be000e" type="widget_heading" state="published">
+        <section-ref unique-name="config.amp.section.ece_frontpage" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Go to section</field>
+        <field name="headingsource">
+            <value>contextSection</value>
+        </field>
+        <field name="anchorstyleclass">go-to-section</field>
+        <field name="widgetwrapper">
+            <value>p</value>
+        </field>
+        <field name="customstyleclass">text-center go-to-section-wrapper</field>
+    </content>
+</escenic>

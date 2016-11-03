@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="9861b805-9f1b-4a19-a0fb-c4838c08abe3" type="widget_contentBody" state="published">
+        <section-ref unique-name="config.default.article.type.story"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="7b58f13b-6045-4569-89eb-2e5f9ced1698">
+            <field name="selectortype">
+                <value>position</value>
+            </field>
+            <field name="position">
+                <value>last</value>
+            </field>
+        </relation>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="fd6cde8d-8bcb-4c62-a832-6ae6f0e17a8f">
+            <field name="selectortype">
+                <value>position</value>
+            </field>
+            <field name="position">
+                <value>3</value>
+            </field>
+        </relation>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="90e741b2-fd9e-4bb4-9b47-bf4d23cab4c3">
+            <field name="selectortype">
+                <value>contentType</value>
+            </field>
+            <field name="contenttype">
+                <title>Picture</title>
+                <value>picture</value>
+            </field>
+        </relation>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="ca78f47d-6232-41fa-b7cc-934826b3f461">
+            <field name="selectortype">
+                <value>contentType</value>
+            </field>
+            <field name="contenttype">
+                <title>Story</title>
+                <value>story</value>
+            </field>
+        </relation>
+        <priority value="0"/>
+        <field name="title">TestAutomation Widget (Teaser view with Body Widget)</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

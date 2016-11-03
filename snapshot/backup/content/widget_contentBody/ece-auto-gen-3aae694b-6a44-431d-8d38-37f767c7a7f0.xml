@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="3aae694b-6a44-431d-8d38-37f767c7a7f0" type="widget_contentBody" state="published">
+        <section-ref unique-name="config.default.article.type.story"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">TestAutomation Widget (Body Widget with dateline and partial body)</field>
+        <field name="pmax">5</field>
+        <field name="showbody">
+            <value>partial</value>
+        </field>
+        <field name="noofparagraphspartial">3</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

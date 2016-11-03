@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="9170ef40-d2dc-47f9-9923-e2152bf2f6cf" type="widget_heading" state="published">
+        <section-ref unique-name="config.amp.tag" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Hello amp tag head</field>
+        <field name="headingsource">
+            <value>customText</value>
+        </field>
+        <field name="customtext">Tag header</field>
+    </content>
+</escenic>

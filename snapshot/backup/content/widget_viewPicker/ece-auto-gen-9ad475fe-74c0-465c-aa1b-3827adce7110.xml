@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="9ad475fe-74c0-465c-aa1b-3827adce7110" type="widget_viewPicker" state="published">
+        <section-ref unique-name="config.amp.tag" home-section="true"/>
+        <relation type="datasourceRelation" source="ece-auto-gen" sourceid="f0b10696-cb36-4afb-b93c-f2dd4f107710"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="aa7c433f-c622-4b0f-8792-511f5a84de59"/>
+        <priority value="0"/>
+        <field name="title">AMP : View Picker Widget - More tagged items</field>
+        <field name="view">
+            <value>default</value>
+        </field>
+        <field name="sourcereference">
+            <value>related</value>
+        </field>
+        <field name="offset">2</field>
+        <field name="maxitems">10</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[],"applySettings":"yes"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+        <field name="renderingmode">
+            <value>delegateView</value>
+        </field>
+        <field name="gridstyle">{"wrapperClass":"row","repeatGrid":"2","gridEditing":"basic","styles":[{"classes":"","$$hashKey":"004","name":"A"}],"gridItems":[{"style":"A"}]}</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

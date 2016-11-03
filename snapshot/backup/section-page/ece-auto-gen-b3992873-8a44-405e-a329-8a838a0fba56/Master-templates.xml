@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="b3992873-8a44-405e-a329-8a838a0fba56" unique-name="config.amp.master" name="Master templates" layout-name="config" action="remove"/>
+</escenic>

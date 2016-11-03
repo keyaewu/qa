@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="d21ae410-e26e-4903-83a8-5cdbdca6b38b" type="widget_viewPicker" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <relation type="datasourceRelation" source="ece-auto-gen" sourceid="d503d301-22f8-4044-a637-4f739959b6f5">
+            <field name="title">DataSource by section page group created by automated test</field>
+        </relation>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="9e664016-06f0-44d2-aa68-594ef867a2f1">
+            <field name="selectortype">
+                <value>position</value>
+            </field>
+            <field name="position">
+                <value>even</value>
+            </field>
+        </relation>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="a7af954b-61d8-4beb-b46d-4a2e6cfaf7fc">
+            <field name="selectortype">
+                <value>position</value>
+            </field>
+            <field name="position">
+                <value>odd</value>
+            </field>
+        </relation>
+        <priority value="0"/>
+        <field name="title">TestAutomation (TeaserView With View Picker - Odd/Even test)</field>
+        <field name="sourcereference">
+            <value>related</value>
+        </field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","24HoursBlockFromNow":"no","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[],"applySettings":"yes"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+        <field name="gridstyle">{"wrapperClass":"row","gridItems":[{"style":"A"}],"repeatGrid":"2","styles":[{"classes":"","name":"A","$$hashKey":"004"}],"gridEditing":"basic"}</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

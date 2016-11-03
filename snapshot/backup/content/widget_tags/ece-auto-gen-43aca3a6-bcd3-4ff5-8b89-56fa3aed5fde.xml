@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="43aca3a6-bcd3-4ff5-8b89-56fa3aed5fde" type="widget_tags" state="published">
+        <section-ref unique-name="config.amp.article.type.story" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">AMP: Tags widget - Article tags</field>
+        <field name="tagsource">
+            <value>articleTags</value>
+        </field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">list.class=list-inline
+list.tag=ul
+item.class=label label-info</field>
+    </content>
+</escenic>

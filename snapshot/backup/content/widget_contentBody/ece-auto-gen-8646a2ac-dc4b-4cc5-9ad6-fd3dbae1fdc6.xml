@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="8646a2ac-dc4b-4cc5-9ad6-fd3dbae1fdc6" type="widget_contentBody" state="published">
+        <section-ref unique-name="config.default.article.type.story"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">TestAutomation Widget (Body Widget)</field>
+        <field name="pmax">5</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="10b89dce-a075-498f-a8d9-ef2f3cfd2c2f" type="widget_teaser" state="published">
+        <section-ref unique-name="config.amp.section.ece_frontpage"/>
+        <section-ref unique-name="config.amp.section" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">AMP: Teaser widget - Featured story</field>
+        <field name="maxitems">1</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","24HoursBlockFromNow":"no","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[{"maxItems":"1","groupName":"featuredStories","sectionSelectionPolicy":"Category","sourceType":"desked","groupInstance":"1","fields":{},"$$hashKey":"00P","contentTypes":["story"]},{"maxItems":"1","sectionSelectionPolicy":"Category","sourceType":"list","sort":"publish_date_dec","fields":{},"$$hashKey":"00W","contentTypes":["story"],"includeSubsections":"yes"}],"applySettings":"no","$$hashKey":"00C"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+        <field name="teaserstyleclass">media</field>
+        <field name="topelements">
+            <value>
+                <value>title</value>
+            </value>
+        </field>
+        <field name="bodywrapper">
+            <value>ul</value>
+        </field>
+        <field name="bodystyleclass">list-inline</field>
+        <field name="bodyelements">
+            <value>
+                <value>timestamp</value>
+            </value>
+            <value>
+                <value>kicker</value>
+            </value>
+        </field>
+        <field name="bottomwrapper">
+            <value>div</value>
+        </field>
+        <field name="bottomstyleclass">media-body</field>
+        <field name="bottomelements">
+            <value>
+                <value>media</value>
+            </value>
+            <value>
+                <value>leadtext</value>
+            </value>
+        </field>
+        <field name="textsettings">
+            <value>
+                <field name="element">
+                    <value>timestamp</value>
+                </field>
+                <field name="styleclass">text-muted</field>
+                <field name="htmltag">
+                    <value>p</value>
+                </field>
+            </value>
+        </field>
+        <field name="mediacontenttypes">
+            <value>
+                <title>Picture</title>
+                <value>picture</value>
+            </value>
+        </field>
+        <field name="mediasource">
+            <value>
+                <title>Lead</title>
+                <value>lead</value>
+            </value>
+            <value>
+                <title>Teaser Relations</title>
+                <value>teaser</value>
+            </value>
+            <value>
+                <title>Related</title>
+                <value>related</value>
+            </value>
+        </field>
+        <field name="imageaspectratio">
+            <value>LANDSCAPE</value>
+        </field>
+        <field name="kickermode">
+            <value>homesection</value>
+        </field>
+        <field name="timemode">
+            <value>human</value>
+        </field>
+        <field name="customstyleclass">teaser-featured</field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">element.markup.class.updatealert=updatealert
+element.markup.inline.close-link-style=inline-close
+element.markup.tag.readmore=p
+element.markup.textsize.text-big=text-big
+element.markup.tag.overline=p
+element.markup.tag.title=h4
+element.markup.class.author=author
+element.markup.tag.summary=p
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.tag.shorttitle=h4
+element.markup.tag.updatealert=strong
+element.media.videoPlayer=
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.markup.class.leadtext=leadtext
+profile.amp.element.share.icons.height=20
+element.markup.tag.picture=div
+element.markup.textsize.text-small=text-small
+element.markup.textsize.kicker=text-smaller
+element.markup.textsize.text-bigger=text-bigger
+element.markup.tag.share=div
+element.markup.tag.leadtext=p
+element.markup.class.slideshow=slideshow
+element.markup.tag.timestamp=strong
+element.markup.tag.kicker=p
+element.authorPhoto.link.show=true
+element.markup.tag.comments=p
+profile.amp.element.share.icons.width=20
+element.markup.class.title=title
+element.markup.class.authorPhoto=author-photo
+element.markup.class.summary=summary
+element.markup.textsize.text-smallest=text-smallest
+element.markup.tag.authorPhoto=div
+element.markup.class.kicker=kicker
+element.markup.class.relatedelements=list-unstyled
+element.markup.tag.relatedelements=ul
+element.markup.tag.slideshow=div
+element.markup.class.share=share
+element.markup.class.subtitle=subtitle
+element.markup.class.picture=picture
+element.markup.tag.author=p
+element.markup.class.shorttitle=shorttitle
+element.markup.tag.subtitle=p
+element.markup.textsize.text-biggest=text-biggest
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.overline=overline
+element.markup.class.picture-caption=picture-caption
+element.media.audioPlayer=
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.class.readmore=readmore
+element.markup.class.timestamp=timestamp</field>
+    </content>
+</escenic>

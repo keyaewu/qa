@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="config.default.section.ece_frontpage" source="ece-auto-gen" sourceid="4a355b57-600c-4353-a77d-a15a30b88d0c" name="Frontpage template" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="bb71693f-4ab4-46c7-a501-17ae343a8baa" unique-name="config.default.section"/>
+        <unique-name>config.default.section.ece_frontpage</unique-name>
+        <directory>config_default_section_ece_frontpage</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>

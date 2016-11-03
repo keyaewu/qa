@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="31b4ad48-299e-47ad-9f08-cf3fc5897cda" unique-name="config.amp" name="AMP" layout-name="config" action="remove">
+        <options>
+            <field name="asideposition">
+                <value>right</value>
+            </field>
+            <field name="area_split">
+                <value>8_4</value>
+            </field>
+        </options>
+        <area name="outer">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>nowrap</value>
+                </field>
+            </options>
+            <content-ref source="ece-auto-gen" sourceid="0941bb64-32bb-49f1-98d7-a6468ce0b7d6">
+                <field name="title">AMP Menu</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <group name="wrapperGroup" label="Wrapper">
+                <area name="wrapperGroup-area">
+                    <options>
+                        <field name="loadingpolicy">
+                            <value>onPage</value>
+                        </field>
+                    </options>
+                    <content-ref source="ece-auto-gen" sourceid="3395387d-375d-4b9a-9989-8e98dd9d6209">
+                        <field name="title">AMP brand</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="referable">
+                        <value>false</value>
+                    </field>
+                    <field name="customstyleclass">navbar</field>
+                </options>
+            </group>
+        </area>
+        <area name="header">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>header</value>
+                </field>
+            </options>
+        </area>
+        <area name="top">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+                <field name="showtoparea">
+                    <value>true</value>
+                </field>
+            </options>
+        </area>
+        <area name="main">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>section</value>
+                </field>
+            </options>
+        </area>
+        <area name="aside">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>aside</value>
+                </field>
+            </options>
+        </area>
+        <area name="bottom">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+                <field name="showbottomarea">
+                    <value>true</value>
+                </field>
+            </options>
+        </area>
+        <area name="footer">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>footer</value>
+                </field>
+            </options>
+            <group name="row" label="Row">
+                <area name="row-area">
+                    <group name="column" label="Column">
+                        <area name="column-area">
+                            <content-ref source="ece-auto-gen" sourceid="599a504a-dca3-4eab-8610-5bd77ed36923">
+                                <field name="title">Footer menu</field>
+                            </content-ref>
+                        </area>
+                        <options>
+                            <field name="htmltag">
+                                <value>div</value>
+                            </field>
+                            <field name="referable">
+                                <value>false</value>
+                            </field>
+                            <field name="customstyleclass">text-center</field>
+                            <field name="span">
+                                <value>12</value>
+                            </field>
+                        </options>
+                    </group>
+                    <group name="column" label="Column">
+                        <area name="column-area">
+                            <content-ref source="ece-auto-gen" sourceid="78c539b1-f0c1-44d8-9dc0-8530cbe7a9ed">
+                                <field name="title">Copyright</field>
+                            </content-ref>
+                        </area>
+                        <options>
+                            <field name="htmltag">
+                                <value>div</value>
+                            </field>
+                            <field name="referable">
+                                <value>false</value>
+                            </field>
+                            <field name="span">
+                                <value>12</value>
+                            </field>
+                        </options>
+                    </group>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="referable">
+                        <value>false</value>
+                    </field>
+                </options>
+            </group>
+        </area>
+    </section-page>
+</escenic>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="801536f9-3615-4658-a3c5-187813bdb51c" unique-name="config.amp.tag" name="Tag templates" layout-name="config" action="remove">
+        <options>
+            <field name="asideposition">
+                <value>right</value>
+            </field>
+            <field name="area_split">
+                <value>12_0</value>
+            </field>
+        </options>
+        <area name="outer">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>nowrap</value>
+                </field>
+            </options>
+        </area>
+        <area name="header">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>header</value>
+                </field>
+            </options>
+        </area>
+        <area name="top">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+                <field name="showtoparea">
+                    <value>true</value>
+                </field>
+            </options>
+        </area>
+        <area name="main">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>section</value>
+                </field>
+            </options>
+            <content-ref source="ece-auto-gen" sourceid="35fdceca-ca21-47bb-a68c-c728e3359659">
+                <field name="title">AMP: Heading widget - tag header</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="ba8dc8d5-317f-42c1-b525-9b3c7dcbf08a">
+                <field name="title">AMP: Content field widget - Topic Leadtext</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="f3c56bbd-498a-438e-9096-16780484fbac">
+                <field name="title">AMP: View Picker Widget - Latest Tagged Items</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="aa6344c8-7375-425a-9217-81f482763202">
+                <field name="title">AMP: Code widget - horizontal line</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="c0b165b7-7ad4-4322-9979-d9b3291705f2">
+                <field name="title">AMP : Heading Widget - More Tagged Items</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="9ad475fe-74c0-465c-aa1b-3827adce7110">
+                <field name="title">AMP : View Picker Widget - More tagged items</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="aside">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>aside</value>
+                </field>
+            </options>
+        </area>
+        <area name="bottom">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+                <field name="showbottomarea">
+                    <value>true</value>
+                </field>
+            </options>
+        </area>
+        <area name="footer">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>footer</value>
+                </field>
+            </options>
+        </area>
+    </section-page>
+</escenic>

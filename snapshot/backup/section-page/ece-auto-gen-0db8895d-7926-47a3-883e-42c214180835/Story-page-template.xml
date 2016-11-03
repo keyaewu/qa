@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="0db8895d-7926-47a3-883e-42c214180835" unique-name="config.amp.article.type.story" name="Story page template" layout-name="config" action="remove">
+        <options>
+            <field name="asideposition">
+                <value>right</value>
+            </field>
+            <field name="area_split">
+                <value>12_0</value>
+            </field>
+        </options>
+        <area name="outer">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>nowrap</value>
+                </field>
+            </options>
+            <content-ref source="ece-auto-gen" sourceid="0941bb64-32bb-49f1-98d7-a6468ce0b7d6">
+                <field name="title">AMP Menu</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <group name="wrapperGroup" label="Wrapper">
+                <area name="wrapperGroup-area">
+                    <options>
+                        <field name="loadingpolicy">
+                            <value>onPage</value>
+                        </field>
+                    </options>
+                    <content-ref source="ece-auto-gen" sourceid="3395387d-375d-4b9a-9989-8e98dd9d6209">
+                        <field name="title">AMP brand</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="referable">
+                        <value>false</value>
+                    </field>
+                    <field name="customstyleclass">navbar no-margin-bottom</field>
+                </options>
+            </group>
+        </area>
+        <area name="header">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>header</value>
+                </field>
+            </options>
+        </area>
+        <area name="top">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+                <field name="showtoparea">
+                    <value>true</value>
+                </field>
+            </options>
+            <content-ref source="ece-auto-gen" sourceid="253aa61d-96f0-40e4-9d7c-0d54002c9cb0">
+                <field name="title">AMP Breadcrumb</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="main">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>section</value>
+                </field>
+            </options>
+            <group name="wrapperGroup" label="Wrapper">
+                <area name="wrapperGroup-area">
+                    <options>
+                        <field name="loadingpolicy">
+                            <value>onPage</value>
+                        </field>
+                    </options>
+                    <content-ref source="ece-auto-gen" sourceid="2e24e6f0-0c9f-4539-8a92-8680e8bd0016">
+                        <field name="title">AMP: Related photo</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <group name="wrapperGroup" label="Wrapper">
+                        <area name="wrapperGroup-area">
+                            <options>
+                                <field name="loadingpolicy">
+                                    <value>onPage</value>
+                                </field>
+                            </options>
+                            <content-ref source="ece-auto-gen" sourceid="25fa8670-5a48-4787-be9d-e2daebff894b">
+                                <field name="title">AMP Heading</field>
+                                <options>
+                                    <field name="loadingpolicy">
+                                        <value>onPage</value>
+                                    </field>
+                                </options>
+                            </content-ref>
+                            <content-ref source="ece-auto-gen" sourceid="1b670e41-c4bb-4e46-a357-d8a4ee9ae367">
+                                <field name="title">Author</field>
+                                <options>
+                                    <field name="loadingpolicy">
+                                        <value>onPage</value>
+                                    </field>
+                                </options>
+                            </content-ref>
+                        </area>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                            <field name="htmltag">
+                                <value>div</value>
+                            </field>
+                            <field name="referable">
+                                <value>false</value>
+                            </field>
+                            <field name="customstyleclass">image-overlay</field>
+                        </options>
+                    </group>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="referable">
+                        <value>false</value>
+                    </field>
+                    <field name="customstyleclass">image-wrapper</field>
+                </options>
+            </group>
+            <content-ref source="ece-auto-gen" sourceid="43aca3a6-bcd3-4ff5-8b89-56fa3aed5fde">
+                <field name="title">AMP: Tags widget - Article tags</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="dc53785a-4a02-41ce-a3b6-85d171c53506">
+                <field name="title">Article data</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <group name="wrapperGroup" label="Wrapper">
+                <area name="wrapperGroup-area">
+                    <options>
+                        <field name="loadingpolicy">
+                            <value>onPage</value>
+                        </field>
+                    </options>
+                    <content-ref source="ece-auto-gen" sourceid="bf65cbce-6ad4-4f13-a778-a7cb07378ec0">
+                        <field name="title">AMP Share</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="referable">
+                        <value>false</value>
+                    </field>
+                    <field name="customstyleclass">text-center margin-top-sm</field>
+                </options>
+            </group>
+            <content-ref source="ece-auto-gen" sourceid="f9988dba-3573-4d71-8ca4-d40a9c4a55e3">
+                <field name="title">AMP Article body</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <group name="wrapperGroup" label="Wrapper">
+                <area name="wrapperGroup-area">
+                    <options>
+                        <field name="loadingpolicy">
+                            <value>onPage</value>
+                        </field>
+                    </options>
+                    <content-ref source="ece-auto-gen" sourceid="bf65cbce-6ad4-4f13-a778-a7cb07378ec0">
+                        <field name="title">AMP Share</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="aa6344c8-7375-425a-9217-81f482763202">
+                        <field name="title">horizontal line</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="referable">
+                        <value>false</value>
+                    </field>
+                    <field name="customstyleclass">text-center margin-top-sm</field>
+                </options>
+            </group>
+            <content-ref source="ece-auto-gen" sourceid="c03f8e14-2150-4a96-9c73-e42dac925f69">
+                <field name="title">Related stories</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="7c189d78-8899-44e2-b688-26b247513623">
+                <field name="title">AMP Teaser widget: Related stories</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="aside">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>aside</value>
+                </field>
+            </options>
+        </area>
+        <area name="bottom">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+                <field name="showbottomarea">
+                    <value>true</value>
+                </field>
+            </options>
+        </area>
+        <area name="footer">
+            <options>
+                <field name="areastyleclass">row</field>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>footer</value>
+                </field>
+            </options>
+        </area>
+    </section-page>
+</escenic>

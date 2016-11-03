@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="da026bd7-92f6-47f9-82c8-cbe36043c299" type="widget_heading" state="published">
+        <section-ref unique-name="config.amp.section.ece_frontpage" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">AMP: Heading widget - Section title</field>
+        <field name="headingsource">
+            <value>contextSection</value>
+        </field>
+        <field name="omitlink">false</field>
+        <field name="anchorstyleclass">go-to-section</field>
+        <field name="widgetwrapper">
+            <value>h4</value>
+        </field>
+        <field name="customstyleclass">section-heading-wrapper</field>
+    </content>
+</escenic>

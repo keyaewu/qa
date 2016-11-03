@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="599a504a-dca3-4eab-8610-5bd77ed36923" type="widget_menu" state="published">
+        <section-ref unique-name="config.amp" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">AMP: Menu widget - Footer menu</field>
+        <field name="menuname">main</field>
+        <field name="customstyle">list-inline footer-menu</field>
+        <field name="utilcacheenabled">true</field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">nav.space.divider.class=nav-divider
+nav.space.text.class=navbar-text
+dropdown.space.divider.class=divider
+dropdown.space.text.class=dropdown-header</field>
+    </content>
+</escenic>

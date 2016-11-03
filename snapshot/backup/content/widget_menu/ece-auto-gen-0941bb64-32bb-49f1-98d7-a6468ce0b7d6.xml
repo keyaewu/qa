@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="0941bb64-32bb-49f1-98d7-a6468ce0b7d6" type="widget_menu" state="published">
+        <section-ref unique-name="config.amp.section.ece_frontpage"/>
+        <section-ref unique-name="config.amp.article.type.story"/>
+        <section-ref unique-name="config.amp" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">AMP: Menu widget - Sidebar</field>
+        <field name="menuname">main</field>
+        <field name="view">
+            <value>amp</value>
+        </field>
+        <field name="rendersidebarheader">true</field>
+        <field name="utilcacheenabled">false</field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">nav.space.divider.class=nav-divider
+nav.space.text.class=navbar-text
+dropdown.space.divider.class=divider
+dropdown.space.text.class=dropdown-header
+amp.sidebar.wrapper.class=sidebar-default
+amp.sidebar.header.class=sidebar-header
+amp.sidebar.heading.text.class=sidebar-heading
+amp.sidebar.close.class=sidebar-close</field>
+    </content>
+</escenic>

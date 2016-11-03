@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="ccf3e116-3af9-45d7-89fb-5899065c7fc2" unique-name="config.amp.article" name="Article templates" layout-name="config" action="remove">
+        <options>
+            <field name="asideposition">
+                <value>right</value>
+            </field>
+            <field name="area_split">
+                <value>8_4</value>
+            </field>
+        </options>
+        <area name="meta">
+            <content-ref source="ece-auto-gen" sourceid="ffac148a-f4bb-4bc3-b538-f6a7b4bcaaf4">
+                <field name="title">AMP : Code Widget - amp discoverable</field>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="23d29611-ef0d-4ffa-a316-4e7d336ad50e">
+                <field name="title">Facebook open graph meta</field>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="bb4e3ec3-5f64-4e0e-a403-db740cdbe21a">
+                <field name="title">Twitter card meta</field>
+            </content-ref>
+        </area>
+        <area name="outer">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>nowrap</value>
+                </field>
+            </options>
+        </area>
+        <area name="header">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>header</value>
+                </field>
+            </options>
+        </area>
+        <area name="top">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+                <field name="showtoparea">
+                    <value>true</value>
+                </field>
+            </options>
+        </area>
+        <area name="main">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>section</value>
+                </field>
+            </options>
+        </area>
+        <area name="aside">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>aside</value>
+                </field>
+            </options>
+        </area>
+        <area name="bottom">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+                <field name="showbottomarea">
+                    <value>true</value>
+                </field>
+            </options>
+        </area>
+        <area name="footer">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>footer</value>
+                </field>
+            </options>
+        </area>
+    </section-page>
+</escenic>

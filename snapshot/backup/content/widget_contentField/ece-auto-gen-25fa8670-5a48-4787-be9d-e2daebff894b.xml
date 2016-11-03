@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="25fa8670-5a48-4787-be9d-e2daebff894b" type="widget_contentField" state="published">
+        <section-ref unique-name="config.amp.article.type.story" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">AMP: Content Field widget - Article heading</field>
+        <field name="field">
+            <title>Title</title>
+            <value>title</value>
+        </field>
+        <field name="fieldwrappertype">
+            <value>custom</value>
+        </field>
+        <field name="fieldwrapper">
+            <value>h4</value>
+        </field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">field.markup.class.title=title
+contentType=story
+field.markup.class.subtitle=subtitle
+field.markup.tag.subtitle=h3
+field.markup.class.body=body
+field.markup.tag.body=p
+field.markup.class.shorttitle=shorttitle
+field.markup.tag.shorttitle=h3
+field.format.date=EEE, d MMM yyyy HH:mm:ss
+field.markup.tag.leadtext=h5
+field.markup.class.leadtext=leadtext
+field.markup.tag.title=h1</field>
+    </content>
+</escenic>
