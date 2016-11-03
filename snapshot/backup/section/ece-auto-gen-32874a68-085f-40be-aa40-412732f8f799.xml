@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="config.amp.article.type.story" source="ece-auto-gen" sourceid="32874a68-085f-40be-aa40-412732f8f799" name="Story AMP" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="b3e4a1df-c206-45e3-a804-562737ec280b" unique-name="config.amp.article"/>
+        <unique-name>config.amp.article.type.story</unique-name>
+        <directory>config_amp_article_type_story</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>
